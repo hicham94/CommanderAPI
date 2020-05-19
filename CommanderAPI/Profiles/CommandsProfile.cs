@@ -12,6 +12,7 @@ namespace CommanderAPI.Profiles
     {
         public CommandsProfile()
         {
+            CreateMap<Command, CommandCreateDTO>();
             CreateMap<Command, CammandReadDTO>();
         }
      
